@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#wraper {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#header {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: cadetblue;
+}
+
+#header > div {
+  padding-top: 30px;
+  align-items: end;
+  height: 70px;
+  text-align: center;
+}
+
+#header #group-name {
+  min-width: 20%;
+  width: fit-content;
+  font-size: 28px;
+  color: blue;
+  text-transform: uppercase;
+}
+
+#header #signature-content {
+  width: auto;
+  font-size: 24px;
+  color: brown;
+}
+
+#nav-bar {
+  background-color: blue;
+  align-items: center;
+  padding: 10px;
+}
+
+#content {
+  padding: 20px 40px;
+}
+
+#content .title {
+  color: tomato;
+}
+
+#product-list {
+  padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#product-list > .product-card {
+  width: 200px;
+  margin: 0 50px 50px 0;
+}
+
+#product-list > .product-card > img {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+#product-list > .product-card > .product-name {
+  line-height: 30px;
+  color: red;
+}
+
+#product-list > .product-card > .product-price {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  height: 40px;
+}

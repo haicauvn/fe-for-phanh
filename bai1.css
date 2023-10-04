@@ -1,99 +1,96 @@
-
 #main-wrap {
-    width: 100%;
-    /* background-color: antiquewhite; */
+  width: 100%;
+  /* background-color: antiquewhite; */
 }
 
 #header {
-    display: flex;
+  display: flex;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 #header .logo {
-    padding-left: 20px;
-    color: white;
-    background-color: red;
-    width: 100px;
+  padding-left: 20px;
+  color: white;
+  background-color: red;
+  width: 100px;
 }
 
 #header .title {
-    text-align: center;
-    width: 80%;
+  text-align: center;
+  width: 80%;
 }
 
 #menu {
-    margin-top: 10px;
-    background-color: blue;
-    display: flex;
-    height: 25px;
+  margin-top: 10px;
+  background-color: blue;
+  display: flex;
+  height: 25px;
 }
 
 #menu .menu-list {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-transform: capitalize;
-    margin: 0px;
-    height: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  margin: 0px;
+  height: 25px;
 }
 
 #menu ul {
-    width: 100%;
-    height: 25px;
-    padding: 0;
+  width: 100%;
+  height: 25px;
+  padding: 0;
 }
 
 #menu li {
-    width: 100px;
-    list-style-type: none;
-    border-right: 1px solid white;
-    line-height: 25px;
-    text-align: center;
+  width: 100px;
+  list-style-type: none;
+  border-right: 1px solid white;
+  line-height: 25px;
+  text-align: center;
 }
 
 #content {
-    margin-top: 30px;
-    display: flex;
-    text-transform: uppercase;
-    justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
 }
 
 #content #input-post {
-    padding-left: 70px;
-    width: 70%;
+  padding-left: 70px;
+  width: 70%;
 }
 
 #content #input-post .input-action {
-    display: flex;
-    flex-flow: column wrap;
-    margin-top: 30px;
-    width: 200px;
-    height: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
 }
 
 #content #input-post .input-action button {
-    width: 70px;
-    height: 50px;
+  width: 70px;
+  height: 50px;
 }
 
 #content #input-post .input-action-save {
-    background-color: orange ;
+  background-color: orange;
 }
 
 #content #input-post .input-action-delete {
-    background-color: red ;
+  background-color: red;
 }
 
-
 #content #news {
-    display: flex;
-    padding-left: 30px;
-    flex-direction: column;
-    width: 200px;
-    text-transform:uppercase;
-    border: 2px solid black;
-    
+  display: flex;
+  padding-left: 30px;
+  flex-direction: column;
+  width: 200px;
+  text-transform: uppercase;
+  border: 2px solid black;
 }
